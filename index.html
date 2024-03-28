@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fentanyl Crisis NYC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="introduction">
+        <div class="title-container">
+            <h1>FENTANYL IN NEW YORK</h1>
+            <p>Facts and Faces of an Epidemic</p>
+        </div>
+        <video autoplay loop muted id="background-video">
+            <source src="videos/fentanyl.mp4" type="video/mp4">
+        </video>
+        <div class="overlay">
+            <div class="stats">
+                <div class="stat">
+                    <div class="counter" data-target="8500">8500</div>
+                    <p>Dead Since 2020</p>
+                </div>
+                </div>
+            </div>
+            <a href="#timeline" class="scroll-down">Scroll Down</a>
+        </div>
+    </section>
+<section id="timeline" class="dynamic-section">
+    <div class="container">
+        <h2 class="section-title">Timeline of the Crisis</h2>
+        <div class="timeline-wrapper">
+            <div class="timeline">
+                <div class="event" data-year="2015">
+                    <h3>2013</h3>
+                    <p>Fentanyl Enters the Drugs Market.</p>
+                </div>
+                <div class="event" data-year="2016">
+                    <h3>2016</h3>
+                    <p>CDC Declares Fentanyl a Public Health Emergency.</p>
+                </div>
+                <div class="event" data-year="2018">
+                    <h3>2018</h3>
+                    <p>Congress Passes the SUPPORT Act</p>
+                </div>
+                <div class="event" data-year="2019">
+                    <h3>2017</h3>
+                    <p>Fentanyl become deadliest drugs in the U.S.</p>
+                </div>
+                <div class="event" data-year="2020">
+                    <h3>2019</h3>
+                    <p>Pandemic Worsens the Crisis </p>
+                </div>
+                </div>
+<div class="slider-container">
+    <div class="slider-button" id="dragButton">Drag</div> 
+</div>
+
+    </section>
+
+    <!-- Redesigned Stories Section -->
+    <section id="stories" class="dynamic-section">
+        <div class="container">
+            <h2 class="section-title">Voices of a Silent Crisis</h2>
+            <div class="video-container">
+            <video controls>
+            <source src="videos/fentanylfilm.mp4" type="video/mp4"></video> 
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Redesigned Call to Action Section -->
+    <section id="call-to-action" class="dynamic-section">
+        <div class="container">
+            <h2 class="section-title">Stand With Us</h2>
+            <p class="cta-description">Be a beacon of hope in the darkest times. Discover how you can contribute to the fight against the crisis.</p>
+            <button class="cta-button">Join the Movement</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
